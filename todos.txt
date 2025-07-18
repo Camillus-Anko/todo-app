@@ -1,6 +1,3 @@
 Call Sammy
-EditUpdate the OS
-Call agric
-HiSleep
 Sleep Again
-Sleep Again Again
+Code
