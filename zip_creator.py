@@ -11,7 +11,6 @@ def make_archive(filepaths, dest_dir):
 
 
 
-
 if __name__ == "__main__":
     make_archive(filepaths=["data.txt", "todos.txt"], dest_dir="Files")
 
