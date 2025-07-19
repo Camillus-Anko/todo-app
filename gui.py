@@ -4,14 +4,6 @@ import FreeSimpleGUI as sg
 import time
 import os
 
-<<<<<<< HEAD
-if not os.path.exists("todos.txt"):
-    with open("todos.txt", "w") as file:
-        pass
-    
-
-=======
->>>>>>> Added-image-features
 sg.theme("Black")
 
 clock = sg.Text('', key='clock')

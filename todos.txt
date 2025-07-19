@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-Code
-Code Again and
-=======
-Call Sammy
-Sleep Again
-Code Again
->>>>>>> Added-image-features
