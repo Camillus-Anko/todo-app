@@ -3,7 +3,7 @@ from functions import write_todos, get_todos
 import FreeSimpleGUI as sg
 import time
 
-sg.theme("DarkPurple4")
+sg.theme("Black")
 
 clock = sg.Text('', key='clock')
 
