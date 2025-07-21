@@ -1,8 +1,13 @@
 import streamlit as st
-
-from functions import get_todos
+from functions import get_todos, write_todos
 
 todos = get_todos()
+
+def add_todo():
+    todo = st.session_state["new_todo"]
+    todos.append(todo)
+    write_todos(todos)
+
 print(todos)
 st.title("My Todo App")
 st.subheader("This is my todo app")
@@ -14,5 +19,7 @@ for todo in todos:
 
 
 
-st.text_input(label="Enter a todo", placeholder="Add new todo...")
+st.text_input(label="Enter a todo", placeholder="Add new todo...",
+on_change=add_todo, key="new_todo")
 
+st.session_state
